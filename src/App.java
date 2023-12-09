@@ -6,7 +6,7 @@ public class App {
     static String[][] estudiantes;
 
     public static void main(String[] args) {
-        System.out.println("RECORADATORIO. NO INGRESES TIPO DE DATOS NO VALIDOS.");
+        System.out.println("RECORADATORIO. NO INGRESES TIPOS DE DATOS NO VALIDOS.");
         System.out.println("Ejemplo: Si se pide ingresar un numero, no ingreses una letra.");
         pausaPrograma();
         limpiarPantalla();
@@ -66,7 +66,7 @@ public class App {
 
     static void pausaPrograma() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
